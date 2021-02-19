@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{7046D035-8714-4650-8F46-844DE4DEAA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals_Fizz Buzz", "Conditionals_Fizz Buzz\Conditionals_Fizz Buzz.csproj", "{F23E0C87-7DA0-43DC-81A4-93C1B476E837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_Fizz Buzz", "Conditionals_Fizz Buzz\Conditionals_Fizz Buzz.csproj", "{F23E0C87-7DA0-43DC-81A4-93C1B476E837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals_PPT_Problem", "Conditionals_PPT_Problem\Conditionals_PPT_Problem.csproj", "{B5B028BE-2F19-48B0-BCEA-D05749B42138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F23E0C87-7DA0-43DC-81A4-93C1B476E837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23E0C87-7DA0-43DC-81A4-93C1B476E837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23E0C87-7DA0-43DC-81A4-93C1B476E837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B028BE-2F19-48B0-BCEA-D05749B42138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B028BE-2F19-48B0-BCEA-D05749B42138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B028BE-2F19-48B0-BCEA-D05749B42138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B028BE-2F19-48B0-BCEA-D05749B42138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
