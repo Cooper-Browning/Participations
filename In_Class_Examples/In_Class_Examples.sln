@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_Fizz Buzz", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_PPT_Problem", "Conditionals_PPT_Problem\Conditionals_PPT_Problem.csproj", "{B5B028BE-2F19-48B0-BCEA-D05749B42138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_While", "Loops_While\Loops_While.csproj", "{B1AA2FE8-87B0-45AA-B814-C0CC84882957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_While", "Loops_While\Loops_While.csproj", "{B1AA2FE8-87B0-45AA-B814-C0CC84882957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_For", "Loops_For\Loops_For.csproj", "{6E3526DA-F5D5-4D93-AAAA-2F37F6718685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_For", "Loops_For\Loops_For.csproj", "{6E3526DA-F5D5-4D93-AAAA-2F37F6718685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{9F86B788-65DE-4522-BC65-BA6BDD6C3CDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6E3526DA-F5D5-4D93-AAAA-2F37F6718685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3526DA-F5D5-4D93-AAAA-2F37F6718685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3526DA-F5D5-4D93-AAAA-2F37F6718685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F86B788-65DE-4522-BC65-BA6BDD6C3CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F86B788-65DE-4522-BC65-BA6BDD6C3CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F86B788-65DE-4522-BC65-BA6BDD6C3CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F86B788-65DE-4522-BC65-BA6BDD6C3CDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -46,13 +46,27 @@ namespace P3_Guess_A_Number
             while (guess != randomNum)
             {
 
-                Console.WriteLine($"You guessed wrong! {guess} is not the right number. Try guessing again >>");
-                answer = Console.ReadLine();
-
-                while (int.TryParse(answer, out guess) == false)
+                if (guess > randomNum)
                 {
-                    Console.WriteLine("Sorry, that input was invalid. Try guessing and integer again.");
+                    Console.WriteLine($"You guessed wrong! The correct number is LESS than your guess of {guess}. Try guessing again >>");
                     answer = Console.ReadLine();
+
+                    while (int.TryParse(answer, out guess) == false)
+                    {
+                        Console.WriteLine("Sorry, that input was invalid. Try guessing and integer again.");
+                        answer = Console.ReadLine();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"You guessed wrong! The correct number is GREATER than your guess of {guess}. Try guessing again >>");
+                    answer = Console.ReadLine();
+
+                    while (int.TryParse(answer, out guess) == false)
+                    {
+                        Console.WriteLine("Sorry, that input was invalid. Try guessing and integer again.");
+                        answer = Console.ReadLine();
+                    }
                 }
             }
 

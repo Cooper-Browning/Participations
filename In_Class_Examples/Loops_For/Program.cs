@@ -6,6 +6,13 @@ namespace Loops_For
     {
         static void Main(string[] args)
         {
+            double sum = 0;
+            for (int i = 0; i <= 1000; i++)
+            {
+                sum += i; 
+            }
+            Console.WriteLine($"{sum.ToString("n0")}");
+            
             // Count all the way up to 100
             for (int i = 1; i <= 100; i++)
             {
