@@ -29,8 +29,7 @@ namespace StringManipulation
             else
             {
                 string newSentence = programming.Replace(answerReplace, word);
-                Console.WriteLine($"" +
-                    $"\n{newSentence}");
+                Console.WriteLine($"\n{newSentence}");
             }
         }
     }
