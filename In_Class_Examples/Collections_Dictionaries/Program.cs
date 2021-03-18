@@ -16,7 +16,7 @@ namespace Collections_Dictionaries
             students.Add("2", 4.0);
             students.Add("3", 2.7);
 
-            foreach (var studentID in students.Keys) //student.keys gives list of keys.students.Values gives values
+            foreach (var studentID in students.Keys) //student.keys gives list of keys. students.Values gives values
             {
                 Console.WriteLine($"\t{studentID}");
             }
