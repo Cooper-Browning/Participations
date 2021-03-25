@@ -48,16 +48,16 @@ namespace All_Types_Of_Collection
             }
             double average = totalGrade / grades.Count;
             Console.WriteLine($"You average grade is: {average.ToString("N2")}");
-            
-            // Number 3
 
+            // Number 3
+            
             Dictionary<string, List<double>> courseGrades = new Dictionary<string, List<double>>();
             courseGrades.Add("MIS3013", new List<double>()); // must create the list, MIS3013 is the key // the first way
             courseGrades["MIS3013"].Add(0.75);
             courseGrades["MIS3013"].Add(1);
             courseGrades["MIS3013"].Add(0.80);
 
-            // OR
+             //OR
             List<double> mis3033Grades = new List<double>(); // the second way
             mis3033Grades.Add(.78);
             mis3033Grades.Add(.99);
@@ -104,6 +104,8 @@ namespace All_Types_Of_Collection
             Console.WriteLine($"The average for your class MIS3013 is : {avg3013.ToString("P2")}");
             Console.WriteLine($"The average for your class MIS3033 is : {avg3033.ToString("P2")}");
             Console.WriteLine($"The average for your class MIS3130 is : {avg3130.ToString("P2")}");
+            
+           
         }
     }
 }
