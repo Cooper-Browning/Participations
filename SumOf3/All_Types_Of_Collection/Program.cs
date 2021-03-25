@@ -7,7 +7,7 @@ namespace All_Types_Of_Collection
     {
         static void Main(string[] args)
         {
-            /*
+            
             //Number 1
             string[] subject = new string[3];
             string[] number = new string[3];
@@ -19,7 +19,7 @@ namespace All_Types_Of_Collection
                 Console.WriteLine("Please enter the corresponding course number for this subject>>");
                 number[i] = Console.ReadLine();
             }
-
+            
             for (int i = 0; i < subject.Length; i++)
             {
                 string course = subject[i] + number[i];
@@ -48,7 +48,7 @@ namespace All_Types_Of_Collection
             }
             double average = totalGrade / grades.Count;
             Console.WriteLine($"You average grade is: {average.ToString("N2")}");
-            */
+            
             // Number 3
 
             Dictionary<string, List<double>> courseGrades = new Dictionary<string, List<double>>();
@@ -93,9 +93,9 @@ namespace All_Types_Of_Collection
                 }
                 
             }
-            Console.WriteLine(courseOne);
-            Console.WriteLine(courseTwo);
-            Console.WriteLine(courseThree);
+            //Console.WriteLine(courseOne);
+            //Console.WriteLine(courseTwo);
+            //Console.WriteLine(courseThree);
 
             double avg3013 = courseOne / 3;
             double avg3033 = courseTwo / 3;
