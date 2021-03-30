@@ -49,8 +49,8 @@ namespace All_Types_Of_Collection
             double average = totalGrade / grades.Count;
             Console.WriteLine($"You average grade is: {average.ToString("N2")}");
 
-            // Number 3
-            
+            //Number 3
+
             Dictionary<string, List<double>> courseGrades = new Dictionary<string, List<double>>();
             courseGrades.Add("MIS3013", new List<double>()); // must create the list, MIS3013 is the key // the first way
             courseGrades["MIS3013"].Add(0.75);
