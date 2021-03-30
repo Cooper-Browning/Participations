@@ -16,7 +16,7 @@ namespace ProcessingCSVFile
             double sum2004 = 0;
             double sum2005 = 0;
             double[] sumMonths = new double[13];
-            //sumMonths[0] = 0;    0 inst a month
+            //sumMonths[0] = 0;    0 isn't a month
             sumMonths[1] = 0;
             sumMonths[2] = 0;
             sumMonths[3] = 0;
