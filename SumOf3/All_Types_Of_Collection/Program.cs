@@ -69,15 +69,18 @@ namespace All_Types_Of_Collection
             courseGrades["MIS3130"].Add(.95);
             courseGrades["MIS3130"].Add(.70);
 
-            double courseOne = 0;
-            double courseTwo = 0;
-            double courseThree = 0;
+            //double courseOne = 0;
+            //double courseTwo = 0;
+            //double courseThree = 0;
             foreach (string courseCode in courseGrades.Keys)
             {
                 List<double> grds = courseGrades[courseCode];
-                
+                double sum = 0;
                 foreach (double grade in grds)
                 {
+                    sum += grade;
+                    
+                    /*
                     if (courseCode == "MIS3013")
                     {
                         courseOne += grade;
@@ -90,13 +93,15 @@ namespace All_Types_Of_Collection
                     {
                         courseThree += grade;
                     }
+                    */
                 }
+                Console.WriteLine($"The average grade for {courseCode} is {(sum / grds.Count).ToString("P2")}");
                 
             }
             //Console.WriteLine(courseOne);
             //Console.WriteLine(courseTwo);
             //Console.WriteLine(courseThree);
-
+            /*
             double avg3013 = courseOne / 3;
             double avg3033 = courseTwo / 3;
             double avg3130 = courseThree / 3;
@@ -104,7 +109,7 @@ namespace All_Types_Of_Collection
             Console.WriteLine($"The average for your class MIS3013 is : {avg3013.ToString("P2")}");
             Console.WriteLine($"The average for your class MIS3033 is : {avg3033.ToString("P2")}");
             Console.WriteLine($"The average for your class MIS3130 is : {avg3130.ToString("P2")}");
-            
+            */
            
         }
     }
