@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Dictionaries", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Lists", "Collections_Lists\Collections_Lists.csproj", "{75278BA2-00B2-40A6-B80A-977B01DD5038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files_ReadingCSVAndParsing", "Files_ReadingCSVAndParsing\Files_ReadingCSVAndParsing.csproj", "{8D462121-4E9A-470A-A5E0-12C9E8DE2F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files_ReadingCSVAndParsing", "Files_ReadingCSVAndParsing\Files_ReadingCSVAndParsing.csproj", "{8D462121-4E9A-470A-A5E0-12C9E8DE2F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions_Example1", "Functions_Example1\Functions_Example1.csproj", "{7C51786D-F622-4CB3-B1B0-51B4DCFE6A72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8D462121-4E9A-470A-A5E0-12C9E8DE2F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D462121-4E9A-470A-A5E0-12C9E8DE2F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D462121-4E9A-470A-A5E0-12C9E8DE2F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C51786D-F622-4CB3-B1B0-51B4DCFE6A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C51786D-F622-4CB3-B1B0-51B4DCFE6A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C51786D-F622-4CB3-B1B0-51B4DCFE6A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C51786D-F622-4CB3-B1B0-51B4DCFE6A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
