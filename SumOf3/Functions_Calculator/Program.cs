@@ -11,8 +11,8 @@ namespace Functions_Calculator
             string calcAnswer;
             double value1;
             double value2;
-            double answer;
             string newCalc;
+            double answer;
 
             Console.WriteLine("What type of calculation would you like to preform: Add, Subtract, Multiply, Divide");
             calcAnswer = Console.ReadLine().ToLower();
@@ -24,25 +24,93 @@ namespace Functions_Calculator
             if (calcAnswer == "add")
             {
                 answer = Add(value1, value2);
-                Console.WriteLine(answer);
+                Console.WriteLine($"Answer = {answer}");
             }
             else if (calcAnswer == "subtract")
             {
                 answer = Subtract(value1, value2);
-                Console.WriteLine(answer);
+                Console.WriteLine($"Answer = {answer}");
             }
             else if (calcAnswer == "multiply")
             {
                 answer = Multiply(value1, value2);
-                Console.WriteLine(answer);
+                Console.WriteLine($"Answer = {answer}");
             }
             else
             {
                 answer = Divide(value1, value2);
-                Console.WriteLine(answer);
+                Console.WriteLine($"Answer = {answer}");
             }
 
-            Console.WriteLine($"Press 0 to exit application.\nPress 1 to run a new calculation.\nPress 2 to use the previous result as the first number in a new calculation.");
+            string response;
+            do
+            {
+                Console.WriteLine($"Press 0 to exit application.\nPress 1 to run a new calculation.\nPress 2 to use the previous result as the first number in a new calculation.");
+                response = Console.ReadLine();
+                if (response == "1")
+                {
+                    Console.WriteLine("What type of calculation would you like to preform: Add, Subtract, Multiply, Divide");
+                    calcAnswer = Console.ReadLine().ToLower();
+                    Console.WriteLine("What is the first value?");
+                    value1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("What is the second value?");
+                    value2 = Convert.ToDouble(Console.ReadLine());
+
+                    if (calcAnswer == "add")
+                    {
+                        answer = Add(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else if (calcAnswer == "subtract")
+                    {
+                        answer = Subtract(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else if (calcAnswer == "multiply")
+                    {
+                        answer = Multiply(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else
+                    {
+                        answer = Divide(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                }
+                else if (response == "2")
+                {
+                    Console.WriteLine("What type of calculation would you like to preform: Add, Subtract, Multiply, Divide");
+                    calcAnswer = Console.ReadLine().ToLower();
+                    value1 = answer;
+                    Console.WriteLine($"Value 1 is equal to the previous answer {answer}. What is the second value?");
+                    value2 = Convert.ToDouble(Console.ReadLine());
+
+                    if (calcAnswer == "add")
+                    {
+                        answer = Add(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else if (calcAnswer == "subtract")
+                    {
+                        answer = Subtract(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else if (calcAnswer == "multiply")
+                    {
+                        answer = Multiply(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                    else
+                    {
+                        answer = Divide(value1, value2);
+                        Console.WriteLine($"Answer = {answer}");
+                    }
+                }
+
+            } while (response == "1" || response == "2");
+
+            Console.WriteLine("Thank you for your service. Closing application now.");
+
 
 
         }
