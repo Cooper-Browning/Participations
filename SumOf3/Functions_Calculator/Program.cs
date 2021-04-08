@@ -11,7 +11,7 @@ namespace Functions_Calculator
             string calcAnswer;
             double value1;
             double value2;
-            string newCalc;
+            
             double answer;
 
             Console.WriteLine("What type of calculation would you like to preform: Add, Subtract, Multiply, Divide");
