@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingCSVFile", "Proces
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions_Calculator", "Functions_Calculator\Functions_Calculator.csproj", "{9E0E8982-F70B-4B6C-9F7A-503983710D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Method_(Speak)", "Simple_Method_(Speak)\Simple_Method_(Speak).csproj", "{213BF6DD-6DE5-45CF-A3AE-932CE9EF02DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Method_(Speak)", "Simple_Method_(Speak)\Simple_Method_(Speak).csproj", "{213BF6DD-6DE5-45CF-A3AE-932CE9EF02DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy", "Toy\Toy.csproj", "{236D20FE-9116-4B24-BF23-C0828F294279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{213BF6DD-6DE5-45CF-A3AE-932CE9EF02DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213BF6DD-6DE5-45CF-A3AE-932CE9EF02DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213BF6DD-6DE5-45CF-A3AE-932CE9EF02DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236D20FE-9116-4B24-BF23-C0828F294279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236D20FE-9116-4B24-BF23-C0828F294279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236D20FE-9116-4B24-BF23-C0828F294279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236D20FE-9116-4B24-BF23-C0828F294279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
