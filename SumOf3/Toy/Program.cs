@@ -22,6 +22,7 @@ namespace Toy
 
             RaceCar.ToyInfo();
             ActionFigure.ToyInfo();
+            Console.WriteLine(RaceCar.ToString());
 
             //printing out again to see if my method ViewToyBox works
             Console.WriteLine();

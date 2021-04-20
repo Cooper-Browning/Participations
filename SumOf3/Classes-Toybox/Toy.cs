@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Toy
+namespace Classes_Toybox
 {
     public class Toy
     {
@@ -57,7 +57,7 @@ namespace Toy
 
         public override string ToString()
         {
-            return $"Toy Name: {Name.PadRight(25)}Toy Manufacturer: {Manufacturer.PadRight(10)}Toy Price: {Price.ToString().PadRight(8)}Toy Aisle: {GetAisle()}\nToy Notes: {Notes}";
+            return $"Toy Name: {Name.PadRight(25)}Toy Manufacturer: {Manufacturer.PadRight(15)}Toy Price: {Price.ToString().PadRight(8)}Toy Aisle: {GetAisle()}\nToy Notes: {Notes}";
         }
     }
 }
