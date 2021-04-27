@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Method_(Speak)", "Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toy", "Toy\Toy.csproj", "{236D20FE-9116-4B24-BF23-C0828F294279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes-Toybox", "Classes-Toybox\Classes-Toybox.csproj", "{0E30C6AA-69EC-4B54-AE5E-2BEF4B2604ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes-Toybox", "Classes-Toybox\Classes-Toybox.csproj", "{0E30C6AA-69EC-4B54-AE5E-2BEF4B2604ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{473EBC06-5519-413C-A968-3D58235B17E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{0E30C6AA-69EC-4B54-AE5E-2BEF4B2604ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E30C6AA-69EC-4B54-AE5E-2BEF4B2604ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E30C6AA-69EC-4B54-AE5E-2BEF4B2604ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473EBC06-5519-413C-A968-3D58235B17E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473EBC06-5519-413C-A968-3D58235B17E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473EBC06-5519-413C-A968-3D58235B17E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473EBC06-5519-413C-A968-3D58235B17E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
