@@ -65,7 +65,9 @@ namespace HW1
 
                 Console.WriteLine("Do you want to display more receipts? (Yes or No)");
                 answer = Console.ReadLine();
-            } while (true);
+            } while (answer.ToLower() == "yes");
+
+            Console.WriteLine("Goodbye");
         }
 
         private static void DisplayReceiptWithHighestTotal(Dictionary<int, List<Receipt>> receipts)
@@ -97,7 +99,16 @@ namespace HW1
 
         private static void DisplayReceiptsForToday(Dictionary<int, List<Receipt>> receipts)
         {
-            
+            foreach (var customer in receipts.Keys)
+            {
+                foreach (var receipt in receipts[customer])
+                {
+                    if (receipt.SaleDate.Date == DateTime.Now.Date)
+                    {
+                        receipt.PrintReceipt();
+                    }
+                }
+            }
         }
 
         private static void DisplayReceiptsByCustomerID(Dictionary<int, List<Receipt>> receipts, int id)
