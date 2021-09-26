@@ -1,0 +1,19 @@
+﻿<Window x:Class="P2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF66CD7B">
+        <Label Content="Type any word" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="txtWord" HorizontalAlignment="Center" Margin="0,55,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="35" Background="#FFC9C8F3"/>
+        <Button x:Name="btnSort" Content="Sort" HorizontalAlignment="Center" Margin="0,95,0,0" VerticalAlignment="Top" Height="57" Width="120" IsDefault="True" Click="btnSort_Click"/>
+        <ListBox x:Name="lstVowels" Margin="417,174,0,0"/>
+        <ListBox x:Name="lstConsonants" Margin="0,174,417,0"/>
+        <Label Content="Consonants" HorizontalAlignment="Left" Margin="148,124,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Vowels" HorizontalAlignment="Left" Margin="581,124,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Window>
