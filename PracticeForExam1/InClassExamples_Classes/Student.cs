@@ -47,7 +47,7 @@ namespace InClassExamples_Classes
 
         public double CheckBalance()
         {
-            return $"{BursarBalance.ToString("N2")}";
+            return BursarBalance;
         }
 
         public override string ToString()

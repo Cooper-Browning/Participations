@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lstStudents" Margin="418,0,0,0"/>
+        <ListBox x:Name="lstStudents" Margin="418,0,0,0" SelectionChanged="lstStudents_SelectionChanged"/>
         <Label Content="SoonerID" HorizontalAlignment="Left" Margin="40,16,0,0" VerticalAlignment="Top"/>
         <Label Content="First Name" HorizontalAlignment="Left" Margin="40,47,0,0" VerticalAlignment="Top"/>
         <Label Content="Last Name" HorizontalAlignment="Left" Margin="41,78,0,0" VerticalAlignment="Top"/>

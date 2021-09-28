@@ -31,7 +31,29 @@ namespace InClassExamples_Classes
             s.GPA = Convert.ToDouble(txtGPA.Text);
             s.IsOnProbation = chkProbation.IsChecked.Value;
 
-            lsdt
+            lstStudents.Items.Add(s);
+            txtBursar.Clear();
+            txtFName.Clear();
+            txtLName.Clear();
+            txtID.Clear();
+            txtGPA.Clear();
+           
+
+        }
+
+        private void lstStudents_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Student selected = (Student)lstStudents.SelectedItem;
+
+            if (selected.IsOnProbation == true)
+            {
+                MessageBox.Show($"{selected.FirstName}'s bursar balance is: {selected.CheckBalance()}\n{selected.FirstName} is on probation");
+            }
+            else
+            {
+                MessageBox.Show($"{selected.FirstName}'s bursar balance is: {selected.CheckBalance()}\n{selected.FirstName} is not probation");
+            }
+            
         }
     }
 }
