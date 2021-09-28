@@ -1,0 +1,22 @@
+﻿<Window x:Class="P3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFB9F3BE">
+        <ListBox x:Name="lstContacts" Margin="400,76,0,0" Foreground="#FF232427" Background="#FFB9D6ED"/>
+        <Label Content="Contacts" HorizontalAlignment="Left" Margin="546,25,0,0" VerticalAlignment="Top" Height="46" Width="108" FontWeight="Bold" Foreground="#FFED0606" FontSize="20"/>
+        <Button Content="See Contact Details" HorizontalAlignment="Left" Margin="124,16,0,0" VerticalAlignment="Top" Height="50" Width="155" FontWeight="Bold" FontSize="16" Background="#FFD6AFEF" Click="Button_Click"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="38,114,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFF2E87E"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="38,170,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFF2E87E"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="38,217,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Background="#FFF2E87E"/>
+        <Image x:Name="imgContact" HorizontalAlignment="Left" Height="164" Margin="38,255,0,0" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="txtFName" HorizontalAlignment="Left" Margin="139,114,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="29" IsEnabled="False"/>
+        <TextBox x:Name="txtLName" HorizontalAlignment="Left" Margin="139,170,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="29" IsEnabled="False"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="139,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="29" IsEnabled="False"/>
+
+    </Grid>
+</Window>
