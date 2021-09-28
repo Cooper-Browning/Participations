@@ -36,5 +36,10 @@ namespace InClassPracticeFiles
             Longitude = 0;
 
         }
+
+        public override string ToString()
+        {
+            return $"{PaymentType}, {Product}";
+        }
     }
 }
