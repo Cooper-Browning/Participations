@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox x:Name="cboGame" HorizontalAlignment="Left" Margin="66,37,0,0" VerticalAlignment="Top" Width="137" Height="33" SelectionChanged="cboGame_SelectionChanged"/>
-        <ListBox x:Name="lstGames" Margin="0,112,0,0" Background="#FFABF6F6"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="cboGame" HorizontalAlignment="Left" Margin="66,37,0,0" VerticalAlignment="Top" Width="137" Height="33" SelectionChanged="cboGame_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+        <ListBox x:Name="lstGames" Margin="0,112,0,0" Background="#FFABF6F6" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
