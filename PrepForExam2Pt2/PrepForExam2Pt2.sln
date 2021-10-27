@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerializationPrac", "JsonSerializationPrac\JsonSerializationPrac.csproj", "{8A7D36B9-7101-481B-BAB4-602DB42BC05B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW6Prob2Prac", "HW6Prob2Prac\HW6Prob2Prac.csproj", "{F23014E8-3ACE-4D83-9AD3-575C3D62B89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hw4VidPrac", "Hw4VidPrac\Hw4VidPrac.csproj", "{97640EB5-2B46-4707-BE6F-A66374B442CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8A7D36B9-7101-481B-BAB4-602DB42BC05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A7D36B9-7101-481B-BAB4-602DB42BC05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A7D36B9-7101-481B-BAB4-602DB42BC05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23014E8-3ACE-4D83-9AD3-575C3D62B89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23014E8-3ACE-4D83-9AD3-575C3D62B89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23014E8-3ACE-4D83-9AD3-575C3D62B89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23014E8-3ACE-4D83-9AD3-575C3D62B89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97640EB5-2B46-4707-BE6F-A66374B442CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97640EB5-2B46-4707-BE6F-A66374B442CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97640EB5-2B46-4707-BE6F-A66374B442CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97640EB5-2B46-4707-BE6F-A66374B442CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
