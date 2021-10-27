@@ -1,0 +1,24 @@
+﻿<Window x:Class="JsonSerializationPrac.GameInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonSerializationPrac"
+        mc:Ignorable="d"
+        Title="GameInfoWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="111,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Platform" HorizontalAlignment="Left" Margin="111,94,0,0" VerticalAlignment="Top"/>
+        <Label Content="Release Date" HorizontalAlignment="Left" Margin="111,147,0,0" VerticalAlignment="Top"/>
+        <Label Content="Summary" HorizontalAlignment="Left" Margin="113,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="Meta Score" HorizontalAlignment="Left" Margin="113,238,0,0" VerticalAlignment="Top"/>
+        <Label Content="User Review" HorizontalAlignment="Left" Margin="113,289,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="192,54,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPlatform" HorizontalAlignment="Left" Margin="192,102,0,0" Text="`" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtRD" HorizontalAlignment="Left" Margin="208,151,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSumm" HorizontalAlignment="Left" Margin="208,199,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMeta" HorizontalAlignment="Left" Margin="208,242,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtUR" HorizontalAlignment="Left" Margin="208,293,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
