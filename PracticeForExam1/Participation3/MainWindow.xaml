@@ -1,0 +1,27 @@
+﻿<Window x:Class="Participation3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Participation3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="378,0,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://www.hasbro.com/common/productimages/en_GB/288E2834A3DF42C598E952B7A3A7C99E/eaa4572a57b305bee1c174b1144e660099990e55.jpg"/>
+        </Grid.Background>
+        <Label Content="Manufacturer" HorizontalAlignment="Left" Margin="-365,24,0,0" VerticalAlignment="Top"/>
+        <Label Content="Toy Name" HorizontalAlignment="Left" Margin="-364,55,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="-365,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Image URL" HorizontalAlignment="Left" Margin="-364,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtManu" HorizontalAlignment="Left" Margin="-265,28,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="-265,59,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="-265,94,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtImage" HorizontalAlignment="Left" Margin="-265,125,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstToyBox" Margin="-365,194,458,2" SelectionChanged="lstToyBox_SelectionChanged"/>
+        <Label Content="Toybox" HorizontalAlignment="Left" Margin="-230,165,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FFEB9494" FontSize="14"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="-109,67,0,0" VerticalAlignment="Top" Height="44" Width="73" Click="btnAdd_Click"/>
+        <Image x:Name="imgToy" HorizontalAlignment="Left" Height="130" Margin="0,270,0,0" VerticalAlignment="Top" Width="129"/>
+
+    </Grid>
+</Window>
