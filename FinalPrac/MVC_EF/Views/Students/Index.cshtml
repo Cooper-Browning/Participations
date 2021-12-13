@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MVC_EF.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+    string color = "red";
+}
+
+<h2>All Students</h2>
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var student in Model)
+        {
+            <div class="col-4">
+                <a href="/Students/Details/@student.StudentID" style="text-decoration:none;">
+                    <div class="card student" style="width: 18rem; background-color:@color">
+                        <div class="card-body">
+                            <h5 class="card-title">@student.LastName, @student.FirstName</h5>
+                            <p class="card-text">
+                                My favorite color is @student.FavoriteColor!
+                                @*
+                                <br />I am enrolled in @student.Registrations.Count().ToString("N0") classes.
+                                <br /> See classes:
+                                <br /> @foreach (var item in student.Registrations)
+                                {
+                                <div>
+                                    @item.ToString();
+                                </div>
+                                }
+                                *@
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            if (color.ToLower() == "red")
+            {
+                color = "green";
+            }
+            else
+            {
+                color = "red";
+            }
+        }
+    </div>
+</div>
