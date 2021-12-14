@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginnerMVCPrac", "Beginner
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_EF", "MVC_EF\MVC_EF.csproj", "{4CF8D4A7-0162-42DD-8A07-6128A77C9641}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCEF_Example", "MVCEF_Example\MVCEF_Example.csproj", "{4EBBC2E7-3082-4EC4-B02C-09A83C990978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4CF8D4A7-0162-42DD-8A07-6128A77C9641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CF8D4A7-0162-42DD-8A07-6128A77C9641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CF8D4A7-0162-42DD-8A07-6128A77C9641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBBC2E7-3082-4EC4-B02C-09A83C990978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBBC2E7-3082-4EC4-B02C-09A83C990978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBBC2E7-3082-4EC4-B02C-09A83C990978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBBC2E7-3082-4EC4-B02C-09A83C990978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
